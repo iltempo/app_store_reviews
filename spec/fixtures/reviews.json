@@ -1,0 +1,78 @@
+{
+    "userReviewList": [
+       {
+            "userReviewId": "121212121",
+            "body": "Nice one.",
+            "date": "2013-09-18T05:30:00Z",
+            "name": "one_user",
+            "rating": 5,
+            "title": "Great update",
+            "voteCount": 8,
+            "voteSum": 9,
+            "viewUsersUserReviewsUrl": "https://itunes.apple.com/de/reviews?l=en&userProfileId=121212121",
+            "voteUrl": "https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=121212121",
+            "reportConcernUrl": "https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernSubmit?cc=de&l=en",
+            "reportConcernExplanation": "Provide more details about this review of 'Whatever'. The author of the review will not be able to see this report.",
+            "customerType": "Customers",
+            "reportConcernReasons": [
+                {
+                    "reasonId": "0",
+                    "name": "Choose One"
+                },
+                {
+                    "reasonId": "1",
+                    "name": "This review contains offensive material."
+                },
+                {
+                    "reasonId": "8",
+                    "name": "This review is not a review or is off-topic."
+                },
+                {
+                    "reasonId": "9",
+                    "name": "I disagree with this review."
+                },
+                {
+                    "reasonId": "7",
+                    "name": "My concern isn't listed here."
+                }
+            ]
+        },
+        {
+            "userReviewId": "232323232",
+            "body": "Looks good.",
+            "date": "2013-09-19T08:20:00Z",
+            "name": "other_user",
+            "rating": 5,
+            "title": "Super!",
+            "voteCount": 0,
+            "voteSum": 0,
+            "viewUsersUserReviewsUrl": "https://itunes.apple.com/de/reviews?l=en&userProfileId=232323232",
+            "voteUrl": "https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=232323232",
+            "reportConcernUrl": "https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernSubmit?cc=de&l=en",
+            "reportConcernExplanation": "Provide more details about this review of 'Whatever'. The author of the review will not be able to see this report.",
+            "customerType": "Customers",
+            "reportConcernReasons": [
+                {
+                    "reasonId": "0",
+                    "name": "Choose One"
+                },
+                {
+                    "reasonId": "1",
+                    "name": "This review contains offensive material."
+                },
+                {
+                    "reasonId": "8",
+                    "name": "This review is not a review or is off-topic."
+                },
+                {
+                    "reasonId": "9",
+                    "name": "I disagree with this review."
+                },
+                {
+                    "reasonId": "7",
+                    "name": "My concern isn't listed here."
+                }
+            ]
+        }
+    ]
+}
