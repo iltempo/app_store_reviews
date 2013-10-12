@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/iltempo/app_store_reviews.png?branch=master)](https://travis-ci.org/iltempo/app_store_reviews)
 [![Code Climate](https://codeclimate.com/github/iltempo/app_store_reviews.png)](https://codeclimate.com/github/iltempo/app_store_reviews)
+[![Dependency Status](https://gemnasium.com/iltempo/app_store_reviews.png)](https://gemnasium.com/iltempo/app_store_reviews)
 
 Keep track of your app store reviews.
 
