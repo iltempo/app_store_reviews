@@ -1,5 +1,4 @@
-# App Store Reviews [![Build
-Status](https://travis-ci.org/iltempo/app_store_reviews.png)](https://travis-ci.org/iltempo/app_store_reviews)
+# App Store Reviews [![Build Status](https://travis-ci.org/iltempo/app_store_reviews.png?branch=master)](https://travis-ci.org/iltempo/app_store_reviews)
 
 Keep track of your app store reviews.
 
