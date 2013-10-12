@@ -10,6 +10,6 @@
 * Write readme
 * Add icon
 * Release gem
-* Add travis
-* Add code climate
 * Add documentation
+* Normalize stores list
+* Find lightweight alternative to nokogiri
