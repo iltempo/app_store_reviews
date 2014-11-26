@@ -21,11 +21,11 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^spec/})
   spec.require_paths = ['lib']
 
-  spec.add_runtime_dependency 'httparty'
-  spec.add_runtime_dependency 'nokogiri'
+  spec.add_runtime_dependency 'httparty', '~> 0.13'
+  spec.add_runtime_dependency 'nokogiri', '~> 1.6'
 
   spec.add_development_dependency 'bundler', '~> 1.3'
-  spec.add_development_dependency 'rake'
-  spec.add_development_dependency 'rspec'
-  spec.add_development_dependency 'fakeweb'
+  spec.add_development_dependency 'rake', '~> 10.4'
+  spec.add_development_dependency 'rspec', '~> 3.1'
+  spec.add_development_dependency 'fakeweb', '~> 1.3'
 end
