@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe AppStoreReviews do
-  let(:opts) { { :app_id => 12345, :store_id => 9876 } }
+  let(:opts) { { app_id: 12_345, store_id: 9_876 } }
   subject(:reviews) { AppStoreReviews.get(opts) }
 
   it 'should have a version number' do

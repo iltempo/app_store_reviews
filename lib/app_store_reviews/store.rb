@@ -1,4 +1,5 @@
 module AppStoreReviews
+  # Represents a country store of iTunes
   class Store
     attr_reader :id
 
@@ -16,7 +17,11 @@ module AppStoreReviews
       store_data = AppStoreReviews::STORES.detect do |store|
         store[:country] == country
       end
-      raise UnknownStore.new("Unknown store for country '#{country}'") unless store_data
+
+      unless store_data
+        raise(UnknownStore, "Unknown store for country '#{country}'")
+      end
+
       store_data[:id]
     end
   end

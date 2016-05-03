@@ -2,18 +2,20 @@
 
 require 'app_store_reviews'
 
-options = {:limit => 5}
+options = { limit: 5 }
 options[:store] = ARGV[0]
 options[:app_id] = ARGV[1]
 
 def print_review(r)
-  puts "| %s [%-5s]"  % [ r.title, '*' * r.rating ]
-  puts "| by %s - %s" % [ r.name, r.date.to_date ]
+  printf('| %s [%-5s]', r.title, '*' * r.rating)
+  printf('| by %s - %s', r.name, r.date.to_date)
   r.body.split("\n").each do |line|
-    puts "| %s"       % [ line ]
+    printf('| %s', line)
   end
   puts
 end
+
+format
 
 AppStoreReviews.get(options).each do |review|
   print_review(review)

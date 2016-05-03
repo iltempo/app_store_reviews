@@ -1,4 +1,5 @@
 module AppStoreReviews
+  # Represents an application
   class App
     attr_reader :id
 
