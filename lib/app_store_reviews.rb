@@ -11,6 +11,7 @@ require 'app_store_reviews/app'
 require 'app_store_reviews/review'
 require 'app_store_reviews/reviews_request'
 
+# Top level module for App Store Reviews gem
 module AppStoreReviews
   def self.get(opts)
     store = Store.new(opts[:store])

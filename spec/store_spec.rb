@@ -9,11 +9,11 @@ module AppStoreReviews
     end
 
     it 'raises if store is not known' do
-      expect {subject.new('Andorra')}.to raise_error(UnknownStore)
+      expect { subject.new('Andorra') }.to raise_error(UnknownStore)
     end
 
     it 'can be initialized with a country name' do
-      expect(subject.new('United States').id).to eq(143441)
+      expect(subject.new('United States').id).to eq(143_441)
     end
   end
 end

@@ -1,7 +1,8 @@
 module AppStoreReviews
+  # Wraps review data into a class
   class Review < OpenStruct
     def self.new_from_result(data)
-       self.new.tap do |review|
+      new.tap do |review|
         review.user_review_id = data['userReviewId']
         review.title          = data['title']
         review.body           = AppStoreReviews.strip_html(data['body'])
